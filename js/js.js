@@ -357,7 +357,7 @@ reviewSlider();
 
 // displayItem(fullMenu);
 
-
+//new comment
  
 //testing
 fullMenu.forEach(item => {
