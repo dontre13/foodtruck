@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="css/css.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Courgette&display=swap" rel="stylesheet">
+        <title>Food Truck</title>
+    </head>
+    <body>
+        <div class = "menu-container">
+            <nav>
+                <div class = "logo"><a href="index.html"> Your | Logo </a> </div>
+                
+                <div class="nav-links">
+                     <ul>
+                        <li><a href ="index.html">Home</a></li>
+                        <li><a href ="index.html#picked">Top Picked</a></li>
+                        <li><a href ="menu.html">Full menu</a></li>
+                        <li><a href ="index.html#chefs">Chefs</a></li>
+                        <li><a href ="index.html#review">Review</a></li>
+                    </ul>
+                </div>
+               
+                <div class="findandcart">
+                    <div class = "searchbox">
+                        <input type = "text" placeholder="Search">
+                        <i class="uil uil-times"></i>
+                        <i class="uil uil-search"></i>
+                    </div>
+                    <i class="uil uil-shopping-cart-alt"></i>
+                    <i class="outer-ex uil uil-times"></i>
+
+                    <div class ="ham-menu">
+                        <i class = "uil uil-bars"></i>
+                    </div>
+                </div>
+            </nav>
+            <section id = "menu" class="pages">
+                <div class="heading"><h2>Menu</h2></div>
+                    <div class="menu-wrapper">
+                        <div class="filter">
+                            <div class ='text'>
+                                <h1>Find your next favorite meal</h1>
+                            </div>
+                            <div id="btns"></div>
+                            <div id ="root"></div>
+
+
+                            <div class ="modal" id ="mealModal">
+                                <div class = "modal-content">
+                                    <span class="close">&times;</span>
+                                    <img src="" id="modalImage" alt =''>
+                                    <h2 id ="modalTitle"></h2>
+                                    <p id = "modalDescription"></p>
+                                </div>
+                            </div>
+
+
+
+                            
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
+        <script type = "module" src="js/menu.js"></script>
+    
+    </body>
+</html>
+
