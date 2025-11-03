@@ -358,7 +358,7 @@ reviewSlider();
 // displayItem(fullMenu);
 
 
-
+ 
 //testing
 fullMenu.forEach(item => {
     console.log(`${item.name}: $${item.price.toFixed(2)}`);
