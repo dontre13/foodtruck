@@ -9,15 +9,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*
-:root{ 
- --main:#ff8800; 
- --light: #e3f5ff; 
- --skyBlue: #0099ff; 
- --dark: #151b20; 
- --gradient: radial-gradient(circle, #662608, #141470 70%); 
-}
-*/
 
 :root {
     --main: #a0522d;
